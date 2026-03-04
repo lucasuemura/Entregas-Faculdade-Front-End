@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleção Monster</title>
+    <link rel="icon" type="image/png" href="imagens/favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        body {
+            font-family: 'Bebas Neue', sans-serif;
+            text-transform: uppercase;
+            background-color: #000;
+            padding: 40px 70px;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #0a0a0a;
+            border-radius: 10px;
+            border: 1px solid #ffffff;
+            width: fit-content;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 10px 20px;
+            display: flex;
+            gap: 30px;
+            margin: 0;
+        }
+
+        nav ul li a {
+            font-size: 14px;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: 2px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #6af400e8;
+        }
+
+        h1 { 
+            font-size: 65px;
+            color: #ffffff;
+            text-align: center;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+
+        .textoVerde { color: #6af400e8; }
+
+        .subtitulo {
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+
+        .colecao {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 25px;
+        }
+
+        .lata {
+            text-align: center;
+            background: #0a0a0a;
+            padding: 15px;
+            border-radius: 20px;
+            border: 1px solid #ffffff;
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+        }
+
+        .lata:hover {
+            transform: translateY(-10px);
+        }
+
+        .lata.branca:hover {
+            border-color: #ffffff;
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .lata.azul:hover {
+            border-color: #00ced1;
+            box-shadow: 0 10px 20px rgba(0, 206, 209, 0.3);
+        }
+
+        .lata.vermelha:hover {
+            border-color: #ff2d55;
+            box-shadow: 0 10px 20px rgba(255, 45, 85, 0.3);
+            
+        }
+
+        .lata.roxa:hover {
+            border-color: #9d00ff;
+            box-shadow: 0 10px 20px rgba(157, 0, 255, 0.3);
+        }
+
+        .lata img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }   
+
+        .lata p {
+            font-size: 20px;
+            color: #ffffff;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>   
+        <ul>
+            <li><a href="">Início</a></li>
+            <li><a href="https://www.monsterenergy.com/pt-br/energy-drinks/" target="_blank">Sabores</a></li>
+            <li><a href="https://github.com/lucasuemura" target="_blank">GitHub</a></li>
+            <li><a href="https://www.monsterenergy.com" target="_blank">Site Oficial Monster</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <h1>COLEÇÃO INSANA DE MONSTER ENERGY <span class="textoVerde">DRINKS</span></h1>
+        <p class="subtitulo">Latas exclusivas de Monster:</p>
+
+        <div class="colecao">
+            <div class="lata branca">
+                <img src="imagens/1.png" alt="Monster Ultra">
+                <p>Monster Ultra</p>
+            </div>
+
+            <div class="lata azul">
+                <img src="imagens/2.png" alt="Monster Ultra Fiesta Mango">
+                <p>Monster Ultra Fiesta Mango</p>
+            </div>
+
+            <div class="lata vermelha">
+                <img src="imagens/3.png" alt="Monster Ultra Watermelon">
+                <p>Monster Ultra Watermelon</p>
+            </div>
+
+            <div class="lata roxa">
+                <img src="imagens/4.png" alt="Monster Ultra Violet">
+                <p>Monster Ultra Violet</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
