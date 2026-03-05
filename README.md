@@ -1,4 +1,4 @@
-<h1>LINK ATIVIDADES | FRONT-END</h1>
+<h1><a href="https://lucasuemura.github.io/Entregas-Faculdade-Front-End/" target="_blank">LINK ATIVIDADES | FRONT-END</a></h1>
 <div class="entrega-1">
         <h2>Atividade 1</h2>
         <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%201" target="_blank">1° Entrega (19/02/2026) | Artigos de Colecionador</a></p>
