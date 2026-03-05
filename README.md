@@ -5,14 +5,12 @@
         <p>➝<a href="https://github.com/lucasuemura/Artigos-Colecionador" target="_blank">Repositório</a></p>
         <p>➝<a href="https://lucasuemura.github.io/Artigos-Colecionador/" target="_blank">Site no GitHub Pages</a></p>
     </div>
-    <hr>
     <div class="entrega-2">
         <h2>Atividade 2</h2>
         <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%202%20(Extra)" target="_blank">2° Entrega (25/02/2026) | Portfólio Pessoal</a></p>
         <p>➝<a href="https://github.com/lucasuemura/Portfolio" target="_blank">Repositório</a></p>
         <p>➝<a href="https://lucasuemura.github.io/Portfolio/" target="_blank">Site no GitHub Pages</a></p>
     </div>
-    <hr>
     <div class="entrega-3">
         <h2>Atividade 3</h2>
         <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%203" target="_blank">3° Entrega (04/03/2026) | Site de Estudos</a></p>
