@@ -7,7 +7,7 @@
     </div>
     <div class="entrega-ex-1">
         <h2>Atividade EXTRA 1</h2>
-        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%202%20(Extra)" target="_blank">1° Entrega EXTRA (25/02/2026) | Portfólio Pessoal</a></p>
+        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%20EXTRA%201" target="_blank">1° Entrega EXTRA (25/02/2026) | Portfólio Pessoal</a></p>
         <p>➝<a href="https://github.com/lucasuemura/Portfolio" target="_blank">Repositório</a></p>
         <p>➝<a href="https://lucasuemura.github.io/Portfolio/" target="_blank">Site no GitHub Pages</a></p>
     </div>
