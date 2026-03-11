@@ -13,13 +13,13 @@
     </div>
     <div class="entrega-2">
         <h2>Atividade 2</h2>
-        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%203" target="_blank">2° Entrega (04/03/2026) | Site de Estudos</a></p>
+        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%202" target="_blank">2° Entrega (04/03/2026) | Site de Estudos</a></p>
         <p>➝<a href="https://github.com/lucasuemura/Site-de-Estudos" target="_blank">Repositório</a></p>
         <p>➝<a href="https://lucasuemura.github.io/Site-de-Estudos/" target="_blank">Site no GitHub Pages</a></p>
     </div>
         <div class="entrega-3">
         <h2>Atividade 3</h2>
-        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%203" target="_blank">3° Entrega (10/03/2026) | Site de Estudos</a></p>
+        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%203" target="_blank">3° Entrega (10/03/2026) | Site sobre Ciência da Computação</a></p>
         <p>➝<a href="https://github.com/lucasuemura/Arquivo-Ciencia-Computacao" target="_blank">Repositório</a></p>
         <p>➝<a href="https://lucasuemura.github.io/Arquivo-Ciencia-Computacao/" target="_blank">Site no GitHub Pages</a></p>
     </div>
