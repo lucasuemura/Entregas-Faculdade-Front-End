@@ -30,3 +30,10 @@
         <p>➝<a href="https://github.com/lucasuemura/Arquivo-Ciencia-Computacao-DaisyUI" target="_blank">Repositório</a></p>
         <p>➝<a href="https://lucasuemura.github.io/Arquivo-Ciencia-Computacao-DaisyUI/" target="_blank">Site no GitHub Pages</a></p>
     </div>
+    </div>
+        <div class="entrega-5">
+        <h2>Atividade 5</h2>
+        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%205" target="_blank">5° Entrega (18/03/2026) | Site sobre Ciência da Computação (Versão Bootstrap)</a></p>
+        <p>➝<a href="https://github.com/lucasuemura/Arquivo-Ciencia-Computacao-Bootstrap" target="_blank">Repositório</a></p>
+        <p>➝<a href="https://lucasuemura.github.io/Arquivo-Ciencia-Computacao-Bootstrap/" target="_blank">Site no GitHub Pages</a></p>
+    </div>
