@@ -37,3 +37,10 @@
         <p>➝<a href="https://github.com/lucasuemura/Arquivo-Ciencia-Computacao-Bootstrap" target="_blank">Repositório</a></p>
         <p>➝<a href="https://lucasuemura.github.io/Arquivo-Ciencia-Computacao-Bootstrap/" target="_blank">Site no GitHub Pages</a></p>
     </div>
+        </div>
+        <div class="entrega-6">
+        <h2>Atividade 6</h2>
+        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%206" target="_blank">6° Entrega (01/04/2026) | Site de um Bichinho Virtual</a></p>
+        <p>➝<a href="https://github.com/lucasuemura/Bichinho-Virtual" target="_blank">Repositório</a></p>
+        <p>➝<a href="https://lucasuemura.github.io/Bichinho-Virtual/" target="_blank">Site no GitHub Pages</a></p>
+    </div>
