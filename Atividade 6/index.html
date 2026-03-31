@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bichinho Virtual | Hatsune Miku</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-[150vh] flex flex-col">
+    <div class="navbar bg-base-100/60 backdrop-blur-md sticky top-0 z-50 px-8 shadow-sm">
+        <div class="flex-1 gap-4">
+            <div class="avatar">
+                <div class="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                    <img src="imagens/1.png"/>
+                </div>
+            </div>
+            <input type="text" placeholder="Nome do pet..." class="input input-ghost w-full max-w-xs focus:bg-white/50"/>
+        </div>
+        <div class="flex-none gap-2">
+            <span class="text-xs font-bold opacity-50 uppercase tracking-widest">Modo Noite</span>
+            <input type="checkbox" id="toggleNoite" class="toggle toggle-primary"/>
+        </div>
+    </div>
+
+    <main class="flex-1 flex flex-col items-center justify-center p-4">
+        <div class="card w-full max-w-md bg-base-100/40 backdrop-blur-xl shadow-2xl border border-white/20 p-8 text-center">
+            
+            <div class="mb-8">
+                <div class="flex justify-between text-xs font-black mb-2 opacity-70 uppercase tracking-tighter">
+                    <span>FOME</span>
+                    <span id="fomeTxt">0%</span>
+                </div>
+                <progress id="fomeBar" class="progress progress-primary w-full h-4" value="0" max="100"></progress>
+            </div>
+
+            <div class="py-10">
+                <img id="mainImage" src="imagens/normal.png" class="w-64 mx-auto floating drop-shadow-2xl transition-all duration-500" alt="Bichinho"/>
+            </div>
+
+            <div class="card-actions justify-center mt-6">
+                <button onclick="alimentar()" class="hover:opacity-80 transition-all duration-200 group">
+                    <img id="btnImage" src="imagens/botao.png" class="w-24 md:w-28 transition-transform" alt="Botão"/>
+                    <p class="text-[10px] mt-2 font-bold opacity-0 group-hover:opacity-100 transition-opacity uppercase italic">ALIMENTE!!</p>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer footer-center p-10 bg-base-200/30 text-base-content mt-20">
+        <aside>
+            <p class="font-medium italic opacity-80">Favor não me reprovar na matéria por ter feito esse botão :)</p>
+        </aside>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
