@@ -43,5 +43,5 @@
     </div>
     <div class="entrega-7">
         <h2>Atividade 7</h2>
-        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%207%20(PROVA%20REFEITA)" target="_blank">7° Entrega (28/04/2026) | Refazer Prova dos Dias 1-3</a></p>
+        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%207%20(PROVA%20REFEITA)" target="_blank">7° Entrega (29/04/2026) | Refazer Prova dos Dias 1-3</a></p>
     </div>
