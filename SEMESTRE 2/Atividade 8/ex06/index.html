@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Infinity Bank - Eventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Orçamento de Eventos</h2>
+        
+        <div class="input-group">
+            <label for="pacote">Pacote de Serviço</label>
+            <select id="pacote">
+                <option value="50">Standard (R$ 50/pessoa)</option>
+                <option value="80">Premium (R$ 80/pessoa)</option>
+                <option value="120">Infinity Deluxe (R$ 120/pessoa)</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="convidados">Quantidade de Pessoas</label>
+            <input type="number" id="convidados" min="1" placeholder="Ex: 150">
+        </div>
+
+        <button id="btnCalcular">Calcular Orçamento</button>
+
+        <div id="resultado" class="oculto">
+            <p><span>Custo Bruto:</span> <strong id="resBruto"></strong></p>
+            <p><span>Taxa de Serviço (10%):</span> <strong id="resTaxa"></strong></p>
+            <p><span>Desconto (5%):</span> <strong id="resDesconto"></strong></p>
+            <hr>
+            <p class="total"><span>Total Final:</span> <strong id="resTotal"></strong></p>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Boletim Escolar</h2>
+        
+        <div class="input-group">
+            <label for="nome">Nome do Aluno</label>
+            <input type="text" id="nome" placeholder="Digite o nome">
+        </div>
+
+        <div class="notas-group">
+            <div class="input-group">
+                <label for="nota1">Nota 1</label>
+                <input type="number" id="nota1" step="0.1" min="0" max="10">
+            </div>
+            <div class="input-group">
+                <label for="nota2">Nota 2</label>
+                <input type="number" id="nota2" step="0.1" min="0" max="10">
+            </div>
+            <div class="input-group">
+                <label for="nota3">Nota 3</label>
+                <input type="number" id="nota3" step="0.1" min="0" max="10">
+            </div>
+        </div>
+
+        <button id="btnCalcular">Calcular Média</button>
+        
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

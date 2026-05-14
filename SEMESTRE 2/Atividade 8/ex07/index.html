@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Bank - Card Guard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Card Guard</h2>
+        
+        <div class="input-group">
+            <label for="numeroCartao">Número do Cartão (PAN)</label>
+            <input type="text" id="numeroCartao" placeholder="0000 0000 0000 0000" maxlength="19">
+        </div>
+
+        <button id="btnAnalisar">Analisar Cartão</button>
+
+        <div id="painelInfo" class="oculto">
+            <p><span>Status:</span> <strong id="statusCartao"></strong></p>
+            <p><span>Bandeira:</span> <strong id="bandeiraCartao"></strong></p>
+            <p><span>Setor Industrial:</span> <strong id="setorCartao"></strong></p>
+            <p><span>Emissor (BIN/IIN):</span> <strong id="emissorCartao"></strong></p>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

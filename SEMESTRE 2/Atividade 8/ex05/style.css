@@ -1,0 +1,106 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #111;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #e0e0e0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #000;
+}
+
+#btnAdicionar {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btnAdicionar:hover { background-color: #111; }
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.nome-texto {
+    flex: 1;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+.acoes {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-acao {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: white;
+}
+
+.btn-concluir { background-color: #333; }
+.btn-editar { background-color: #888; }
+.btn-excluir { background-color: #dc3545; }
+
+.riscado {
+    text-decoration: line-through;
+    color: #a0a0a0;
+}

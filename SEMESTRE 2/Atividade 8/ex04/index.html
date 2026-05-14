@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador Infinity Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Simulador de Vendas</h2>
+        
+        <div class="input-group">
+            <label for="valorVenda">Valor da Venda (R$)</label>
+            <input type="number" id="valorVenda" step="0.01" min="0">
+        </div>
+
+        <div class="input-group">
+            <label for="bandeira">Bandeira do Cartão</label>
+            <select id="bandeira">
+                <option value="">Selecione uma bandeira...</option>
+                <option value="visa">Visa (2%)</option>
+                <option value="master">Mastercard (1.85%)</option>
+                <option value="elo">Elo (3%)</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="parcelas">Número de Parcelas</label>
+            <input type="number" id="parcelas" min="1" max="12">
+        </div>
+
+        <button id="btnSimular">Simular Transação</button>
+
+        <div id="resultado" class="oculto">
+            <p><strong>Taxa da Bandeira:</strong> <span id="resTaxa"></span></p>
+            <p><strong>Juros Totais (+ Fixo):</strong> <span id="resJuros"></span></p>
+            <p><strong>Valor da Parcela:</strong> <span id="resParcela"></span></p>
+            <p><strong>Valor Total:</strong> <span id="resTotal"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
