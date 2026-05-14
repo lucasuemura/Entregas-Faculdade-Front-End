@@ -1,4 +1,5 @@
 <h1><a href="https://lucasuemura.github.io/Entregas-Faculdade-Front-End/" target="_blank">LINK ATIVIDADES | FRONT-END</a></h1>
+<h1>1° SEMESTRE</h1>
     <div class="entrega-1">
         <h2>Atividade 1</h2>
         <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%201" target="_blank">1° Entrega (19/02/2026) | Artigos de Colecionador</a></p>
@@ -44,4 +45,9 @@
     <div class="entrega-7">
         <h2>Atividade 7</h2>
         <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/Atividade%207%20(PROVA%20REFEITA)" target="_blank">7° Entrega (29/04/2026) | Refazer Prova dos Dias 1-3</a></p>
+    </div>
+<h1>2° SEMESTRE</h1>
+    <div class="entrega-8">
+        <h2>Atividade 8</h2>
+        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/SEMESTRE%202/Atividade%208" target="_blank">8° Entrega (14/05/2026) | Lista de exercícios de JavaScript</a></p>
     </div>
