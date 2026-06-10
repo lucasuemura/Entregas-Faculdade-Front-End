@@ -52,3 +52,9 @@
         <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/2%C2%B0%20BIMESTRE/Atividade%208" target="_blank">8° Entrega (14/05/2026) | Lista de exercícios de JavaScript</a></p>
         <p>➝<a href="https://github.com/lucasuemura/Atividades-JavaScript" target="_blank">Repositório</a></p>
     </div>
+    <div class="entrega-9">
+        <h2>Atividade 9</h2>
+        <p>➝<a href="https://github.com/lucasuemura/Entregas-Faculdade-Front-End/tree/main/2%C2%B0%20BIMESTRE/Atividade%209" target="_blank">9° Entrega (03/06/2026) | Construindo o TERMO em React</a></p>
+        <p>➝<a href="https://github.com/lucasuemura/Termo-Clone" target="_blank">Repositório</a></p>
+    </div>
+    
